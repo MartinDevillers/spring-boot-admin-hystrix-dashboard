@@ -1,11 +1,14 @@
-spring-boot-admin-hystrix-dashboard
-================================
+# Hystrix Dashboard for Spring Boot Admin 2.x
+
+[![Build Status](https://travis-ci.com/MartinDevillers/spring-boot-admin-hystrix-dashboard.svg?branch=master)](https://travis-ci.com/MartinDevillers/spring-boot-admin-hystrix-dashboard)
+
 This module adds [Hystrix Dashboard](https://github.com/Netflix-Skunkworks/hystrix-dashboard/) to 
 [Spring Boot Admin 2.x](https://github.com/codecentric/spring-boot-admin). It is implemented as a 
 [Custom View Module](https://codecentric.github.io/spring-boot-admin/current/#customizing-custom-views) using the 
 [spring-boot-admin-sample-custom-ui](https://github.com/codecentric/spring-boot-admin/tree/master/spring-boot-admin-samples/spring-boot-admin-sample-custom-ui/) 
 project as a template. 
 
+---
 ### Using this module
 To use this module, simply add the following Maven dependency to your Spring Boot Admin application, rebuild, deploy and enjoy!
 ```xml
@@ -41,6 +44,7 @@ accessible at the base-path of Spring Boot Actuator (default: `/actuator`). The 
 }
 ```
 
+---
 ### Building this module
 The jar **can be build with Maven** with the maven-exec-plugin. To do this node.js and npm must be installed on your machine and be on your `$PATH`.
 If you don't want to use the maven exec run the following commands:
