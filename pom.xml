@@ -20,9 +20,34 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.devillers</groupId>
     <artifactId>spring-boot-admin-hystrix-dashboard</artifactId>
-    <name>Spring Boot Admin Server Hystrix Dashboard</name>
     <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>Spring Boot Admin 2.x Hystrix Dashboard</name>
     <description>Netflix-Skunkworks/hystrix-dashboard as a Spring Boot Admin 2.x compatible Vue-component</description>
+    <url>https://github.com/MartinDevillers/spring-boot-admin-hystrix-dashboard</url>
+    <organization>
+        <name>Devillers</name>
+        <url>https://devillers.nl</url>
+    </organization>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/MartinDevillers/spring-boot-admin-hystrix-dashboard/issues</url>
+    </issueManagement>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://github.com/mautini/schemaorg-java/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Martin Devillers</name>
+            <email>martin@devillers.nl</email>
+            <organization>Devillers</organization>
+            <organizationUrl>https://devillers.nl</organizationUrl>
+        </developer>
+    </developers>
     <properties>
         <project.version>1.0</project.version>
         <skipNpmBuild>false</skipNpmBuild>
