@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>nl.devillers</groupId>
     <artifactId>spring-boot-admin-hystrix-dashboard</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>Spring Boot Admin 2.x Hystrix Dashboard</name>
     <description>Netflix-Skunkworks/hystrix-dashboard as a Spring Boot Admin 2.x compatible Vue-component</description>
