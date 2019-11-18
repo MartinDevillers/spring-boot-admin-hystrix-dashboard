@@ -112,6 +112,10 @@
                     <file>${project.build.directory}/classes/META-INF/spring-boot-admin-server-ui/hystrix-static/monitor/monitor.html</file>
                     <replacements>
                         <replacement>
+                            <token><![CDATA[<div id="header"></div>]]></token>
+                            <value></value>
+                        </replacement>
+                        <replacement>
                             <token>"../proxy.stream?origin="</token>
                             <value>""</value>
                         </replacement>
