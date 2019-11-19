@@ -30,7 +30,7 @@ To use this module, simply add the following Maven dependency to your Spring Boo
 <dependency>
     <groupId>nl.devillers</groupId>
     <artifactId>spring-boot-admin-hystrix-dashboard</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
