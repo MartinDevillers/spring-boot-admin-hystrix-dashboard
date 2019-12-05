@@ -14,8 +14,8 @@
     },
     computed: {
       url() {
-        var basePath = '/hystrix-static/monitor/monitor.html'
-        var stream = `/instances/${this.instance.id}/actuator/hystrix.stream`
+        var basePath = 'hystrix-static/monitor/monitor.html'
+        var stream = `../../instances/${this.instance.id}/actuator/hystrix.stream`
         var title = this.instance.info && this.instance.info.app && this.instance.info.app.name ? this.instance.info.app.name : this.instance.id
         return `${basePath}?stream=${stream}&title=${title}`
       }
